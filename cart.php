@@ -52,7 +52,7 @@ session_start();
                 ?>
 
                  </a>
-                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Taka <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
+                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Shs <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
      </div>
 
      <div class = "col-md-6">
@@ -308,7 +308,7 @@ session_start();
       </div>
       <div class="pull-right">
         
-       <h4 style="padding-right:80px;">TAKA <?php echo $total;  ?></h4>
+       <h4 style="padding-right:80px;">Shs <?php echo $total;  ?></h4>
       </div>
        
      </div>
@@ -394,7 +394,7 @@ session_start();
           </a>
          <div class='text'>
           <h3> <a href='details.php?pro_id=$pro_id'>$product_title</a></h3>
-          <p class='price'> TAKA $product_price  </p>
+          <p class='price'> Shs $product_price  </p>
         </div>
         </div>
         </div>
@@ -430,11 +430,11 @@ session_start();
         </tr>
          <tr>
           <td>Shopping and handling</td>
-          <th>TAKA 0</th>
+          <th>Shs 0</th>
         </tr>
          <tr>
           <td>Tax</td>
-          <th>TAKA 0</th>
+          <th>Shs 0</th>
         </tr>
          <tr class="total">
           <td>Total</td>
