@@ -43,7 +43,7 @@
 
 
                   </a>
-                  <a href="#">Shopping Cart Total Price: Taka 100, Total items : 2 </a> 
+                  <a href="#">Shopping Cart Total Price: Shs 100, Total items : 2 </a> 
      </div>
 
      <div class = "col-md-6">

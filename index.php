@@ -54,7 +54,7 @@ include("functions/functions.php");
                  </a>
 
                 
-                 <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Taka <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
+                 <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: shs <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
          
                  
                 
@@ -429,7 +429,7 @@ include("functions/functions.php");
 
 				<p class="price">
 					
-                     Taka 299
+                    Shs 299
 				</p>
 				
 				<p class="button">

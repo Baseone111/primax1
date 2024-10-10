@@ -50,7 +50,7 @@ session_start();
                     
                 ?>
                   </a>
-                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Taka <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
+                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Shs <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
      </div>
 
      <div class = "col-md-6">
@@ -333,7 +333,7 @@ session_start();
                 <h3><a href='details.php?pro_id=$pro_id'>$pro_title</a></h3>
                  
                  <p class='price'>
-                 TAKA $pro_price
+                 Shs$pro_price
 
                  </p>
                  
@@ -370,7 +370,7 @@ session_start();
               Mardaz pack of 5 - Multicolor Cotton V-Neck T-Shirts for Men
             </a>
           </h3>
-          <p class="price">TAKA 200</p>
+          <p class="price">Shs 200</p>
           <p class="button">
             <a href="details.php" class="btn btn-default">View Details</a>
 

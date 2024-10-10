@@ -39,7 +39,7 @@ session_start();
 
                 ?>
                   </a>
-                  <a href="#">Shopping Cart Total Price: Taka <?php tatalPrice(); ?>, Total items : 2 </a> 
+                  <a href="#">Shopping Cart Total Price: Shs <?php tatalPrice(); ?>, Total items : 2 </a> 
      </div>
 
      <div class = "col-md-6">

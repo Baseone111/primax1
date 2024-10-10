@@ -51,7 +51,7 @@
                 ?>
 
                  </a>
-                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Taka <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
+                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Shs <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
      </div>
 
 <div class = "col-md-6">

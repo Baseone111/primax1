@@ -82,12 +82,12 @@
 
  		<p>
  			<strong>www.test.com</strong>
- 			<br>Bhowanigonj
- 			<br>Lakshmipur
- 			<br>Chittagong
- 			<br>Bangladesh
- 			<br>saiful@gmail.com
- 			<br>+880 1758284109
+ 			<br>BaseOne
+ 			<br>Developers
+ 			<br>Jinja
+ 			<br>Uganda
+ 			<br>baseonedevelopers@gmail.com
+ 			<br>+256-770463159
 
  		</p>
  		<a href="contact.php">Go to contant us page</a>
@@ -118,7 +118,7 @@
  			<p class="social">
  				<a href="https://www.facebook.com/saiful.cse.jnu2"><i class="fa fa-facebook"></i></a>
  				<a href="#"><i class="fa fa-twitter"></i></a>
- 				<a href="#"><i class="fa fa-instagram"></i></a>
+ 				<a href="https://www.instagram.com/badeephilee/"><i class="fa fa-instagram"></i></a>
  				<a href="#"><i class="fa fa-google-plus"></i></a>
  				<a href="#"><i class="fa fa-envelope"></i></a>
  				
@@ -141,14 +141,14 @@
  		
  			
  			<div class="col-md-6">
- 				<p class="pull-left">&copy; 2020 Saiful Islam
+ 				<p class="pull-left">&copy; 2024 opio philbert
 
  				</p>
  			</div>
  				<div class="col-md-6">
  					<p class="pull-right">
 
- 						www.saiful.com
+ 						www.baseone.com
 
  					</p>
  					
