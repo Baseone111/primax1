@@ -44,7 +44,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`admin_id`, `admin_name`, `admin_email`, `admin_pass`, `admin_image`, `admin_contact`, `admin_country`, `admin_job`, `admin_about`) VALUES
-(1, 'Saiful Islam', 'saiful2561998@gmail.com', '123', 'admin.jpg', '01758284109', 'Bangladesh', 'CEO', 'This is the CEO of the company');
+(1, 'samuel joe', 'samueljoe@gmail.com', '123', 'admin.jpg', '01758284109', 'kampala', 'developer', 'This is the developer of the company');
 
 -- --------------------------------------------------------
 
