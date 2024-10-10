@@ -50,7 +50,7 @@ session_start();
                     
                 ?>
                   </a>
-                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Taka <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
+                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: shs <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
      </div>
 
      <div class = "col-md-6">
@@ -329,7 +329,7 @@ session_start();
 
 <div class='text'>
 <h3><a href='details.php?pro_id=$pro_id'>$pro_title</a></h3>
-<p class='price'>TAKA $pro_price</p>
+<p class='price'>shs $pro_price</p>
 <p class='button'>
 <a href=details.php?pro_id=$pro_id class='btn btn-default'>View Details</a>
 <a href=details.php?pro_id=$pro_id class='btn btn-primary'><i class='fa fa-shopping-cart'></i>Add to cart</a>
@@ -420,7 +420,7 @@ session_start();
               Mardaz pack of 5 - Multicolor Cotton V-Neck T-Shirts for Men
             </a>
           </h3>
-          <p class="price">TAKA 200</p>
+          <p class="price">shs 200</p>
           <p class="button">
             <a href="details.php" class="btn btn-default">View Details</a>
 
@@ -476,7 +476,7 @@ session_start();
           </a>
          <div class='text'>
           <h3> <a href='details.php?pro_id=$pro_id'>$product_title</a></h3>
-          <p class='price'> TAKA $product_price  </p>
+          <p class='price'> shs $product_price  </p>
         </div>
         </div>
         </div>

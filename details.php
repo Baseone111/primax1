@@ -78,7 +78,7 @@ if(isset($_GET['pro_id']))
                 ?>
 
                  </a>
-                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Taka <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
+                  <span href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: shs <?php tatalPrice(); ?>, Total items : <?php item(); ?> </span> 
      </div>
 
 
@@ -395,7 +395,7 @@ if(isset($_GET['pro_id']))
                       </div>
                       
                     </div>
-                <p class="price"> TAKA <?php echo $p_price;?></p>
+                <p class="price"> shs <?php echo $p_price;?></p>
                 <p class="text-center buttons">
                   <button class="btn btn-primary" type="submit"><i class="fa fa-shopping-cart">Add to cart</i>
                     
@@ -578,7 +578,7 @@ if($run_customer_rev)
           </a>
          <div class='text'>
           <h3> <a href='details.php?pro_id=$pro_id'>$product_title</a></h3>
-          <p class='price'> TAKA $product_price  </p>
+          <p class='price'> shs $product_price  </p>
         </div>
         </div>
         </div>

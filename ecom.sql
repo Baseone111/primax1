@@ -121,24 +121,24 @@ INSERT INTO `categories` (`cat_id`, `cat_title`, `cat_desc`) VALUES
 -- Table structure for table `chatbot_hints`
 --
 
-CREATE TABLE `chatbot_hints` (
-  `id` int(11) NOT NULL,
-  `question` varchar(100) NOT NULL,
-  `reply` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+-- CREATE TABLE `chatbot_hints` (
+--   `id` int(11) NOT NULL,
+--   `question` varchar(100) NOT NULL,
+--   `reply` varchar(100) NOT NULL
+-- ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `chatbot_hints`
---
+-- --
+-- -- Dumping data for table `chatbot_hints`
+-- --
 
-INSERT INTO `chatbot_hints` (`id`, `question`, `reply`) VALUES
-(1, 'HI||Hello||Hola', 'Hello, how are you.'),
-(2, 'How are you', 'Good to see you again!'),
-(3, 'what is your name||whats your name', 'My name is Vishal Bot'),
-(4, 'what should I call you', 'You can call me Vishal Bot'),
-(5, 'Where are your from', 'I m from India'),
-(6, 'Bye||See you later||Have a Good Day', 'Sad to see you are going. Have a nice day'),
-(7, 'who is the CEO of this shop?', 'Mr. Saiful Islma is the CEO.');
+-- INSERT INTO `chatbot_hints` (`id`, `question`, `reply`) VALUES
+-- (1, 'HI||Hello||Hola', 'Hello, how are you.'),
+-- (2, 'How are you', 'Good to see you again!'),
+-- (3, 'what is your name||whats your name', 'My name is Vishal Bot'),
+-- (4, 'what should I call you', 'You can call me Vishal Bot'),
+-- (5, 'Where are your from', 'I m from India'),
+-- (6, 'Bye||See you later||Have a Good Day', 'Sad to see you are going. Have a nice day'),
+-- (7, 'who is the CEO of this shop?', 'Mr. Saiful Islma is the CEO.');
 
 -- --------------------------------------------------------
 
@@ -163,16 +163,16 @@ CREATE TABLE `customers` (
 -- Dumping data for table `customers`
 --
 
-INSERT INTO `customers` (`customer_id`, `customer_name`, `customer_email`, `customer_pass`, `customer_country`, `customer_city`, `customer_contact`, `customer_address`, `customer_image`, `customer_ip`) VALUES
-(1, 'Md. Saiful Islam', 'saiful2561998@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka.', 'student-1.jpg', '::1'),
-(2, 'Mr. X', 'nai@gmail.com', '56585452', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'constantinos-panagopoulos-bAS_PnTzytc-unsplash.jpg', '::1'),
-(5, 'sadia', 'sadia@gmail.com', '123', 'Bangladesh', 'Dhaka', '01665465454', ' Jamalpur', 'student-5.jpg', '::1'),
-(7, 'saiful', 's@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'saiful1.jpg', '::1'),
-(8, 'Md. Saiful Islam', 'saiful2561998@gmail.com', '56585452', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'saiful1.jpg', '::1'),
-(9, 'morshed', 'morshed@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'me 1.1.jpg', '::1'),
-(10, 'Ashraful', 'ash@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'as.jpg', '::1'),
-(11, 'AKASH', 'AKASH@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'saiful1.jpg', '::1'),
-(12, 'AKASH', 'a@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'Screenshot (1).png', '::1');
+-- INSERT INTO `customers` (`customer_id`, `customer_name`, `customer_email`, `customer_pass`, `customer_country`, `customer_city`, `customer_contact`, `customer_address`, `customer_image`, `customer_ip`) VALUES
+-- (1, 'Md. Saiful Islam', 'saiful2561998@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka.', 'student-1.jpg', '::1'),
+-- (2, 'Mr. X', 'nai@gmail.com', '56585452', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'constantinos-panagopoulos-bAS_PnTzytc-unsplash.jpg', '::1'),
+-- (5, 'sadia', 'sadia@gmail.com', '123', 'Bangladesh', 'Dhaka', '01665465454', ' Jamalpur', 'student-5.jpg', '::1'),
+-- (7, 'saiful', 's@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'saiful1.jpg', '::1'),
+-- (8, 'Md. Saiful Islam', 'saiful2561998@gmail.com', '56585452', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'saiful1.jpg', '::1'),
+-- (9, 'morshed', 'morshed@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'me 1.1.jpg', '::1'),
+-- (10, 'Ashraful', 'ash@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'as.jpg', '::1'),
+-- (11, 'AKASH', 'AKASH@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'saiful1.jpg', '::1'),
+-- (12, 'AKASH', 'a@gmail.com', '123', 'Bangladesh', 'Dhaka', '01758284109', 'Dhupkhola math , Gendaria , Dhaka., Jagannath University, Dhaka', 'Screenshot (1).png', '::1');
 
 -- --------------------------------------------------------
 
@@ -197,21 +197,21 @@ CREATE TABLE `customer_order` (
 -- Dumping data for table `customer_order`
 --
 
-INSERT INTO `customer_order` (`order_id`, `customer_id`, `product_id`, `due_amount`, `shipping_address`, `invoice_no`, `qty`, `size`, `order_date`, `order_status`) VALUES
-(28, 1, 5, 150000, '', 1990691356, 1, 'Small', '2020-11-01 13:24:18', 'Complete'),
-(29, 1, 4, 3500, '', 1226846176, 1, 'Small', '2020-11-07 16:46:33', 'Complete'),
-(31, 1, 2, 20000, '', 185769516, 1, 'Small', '2020-11-01 17:35:46', 'Complete'),
-(33, 1, 6, 2500, '', 1310614455, 1, 'Small', '2020-11-01 18:03:28', 'pending'),
-(34, 1, 6, 2500, '', 557926058, 1, 'Small', '2020-11-01 18:27:40', 'pending'),
-(35, 1, 5, 150000, '', 557926058, 1, 'Small', '2020-11-01 18:27:40', 'pending'),
-(36, 1, 6, 2500, '', 1561790517, 1, 'Small', '2020-11-01 19:27:31', 'pending'),
-(37, 1, 2, 20000, '', 1561790517, 1, 'Small', '2020-11-01 19:27:31', 'pending'),
-(38, 1, 4, 3500, '', 1561790517, 1, 'Small', '2020-11-01 19:27:31', 'pending'),
-(39, 1, 6, 2500, '', 540329720, 1, 'Small', '2020-11-01 19:33:40', 'pending'),
-(40, 1, 4, 3500, '', 1093197418, 1, 'Small', '2020-11-01 19:35:30', 'pending'),
-(41, 1, 6, 2500, '', 16943136, 1, 'Small', '2021-05-01 22:31:06', 'pending'),
-(42, 1, 5, 150000, '', 16943136, 1, 'Small', '2021-05-01 22:31:06', 'pending'),
-(43, 1, 1, 1000, '', 16943136, 1, 'Small', '2021-05-01 22:31:06', 'pending');
+-- INSERT INTO `customer_order` (`order_id`, `customer_id`, `product_id`, `due_amount`, `shipping_address`, `invoice_no`, `qty`, `size`, `order_date`, `order_status`) VALUES
+-- (28, 1, 5, 150000, '', 1990691356, 1, 'Small', '2020-11-01 13:24:18', 'Complete'),
+-- (29, 1, 4, 3500, '', 1226846176, 1, 'Small', '2020-11-07 16:46:33', 'Complete'),
+-- (31, 1, 2, 20000, '', 185769516, 1, 'Small', '2020-11-01 17:35:46', 'Complete'),
+-- (33, 1, 6, 2500, '', 1310614455, 1, 'Small', '2020-11-01 18:03:28', 'pending'),
+-- (34, 1, 6, 2500, '', 557926058, 1, 'Small', '2020-11-01 18:27:40', 'pending'),
+-- (35, 1, 5, 150000, '', 557926058, 1, 'Small', '2020-11-01 18:27:40', 'pending'),
+-- (36, 1, 6, 2500, '', 1561790517, 1, 'Small', '2020-11-01 19:27:31', 'pending'),
+-- (37, 1, 2, 20000, '', 1561790517, 1, 'Small', '2020-11-01 19:27:31', 'pending'),
+-- (38, 1, 4, 3500, '', 1561790517, 1, 'Small', '2020-11-01 19:27:31', 'pending'),
+-- (39, 1, 6, 2500, '', 540329720, 1, 'Small', '2020-11-01 19:33:40', 'pending'),
+-- (40, 1, 4, 3500, '', 1093197418, 1, 'Small', '2020-11-01 19:35:30', 'pending'),
+-- (41, 1, 6, 2500, '', 16943136, 1, 'Small', '2021-05-01 22:31:06', 'pending'),
+-- (42, 1, 5, 150000, '', 16943136, 1, 'Small', '2021-05-01 22:31:06', 'pending'),
+-- (43, 1, 1, 1000, '', 16943136, 1, 'Small', '2021-05-01 22:31:06', 'pending');
 
 -- --------------------------------------------------------
 
