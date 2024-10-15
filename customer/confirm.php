@@ -41,7 +41,7 @@ else{
      			<a href = "#" class="btn btn-success btn sm">
                  Welcome Guest
                   </a>
-                  <a href="#">Shopping Cart Total Price: Taka 100, Total items : 2 </a> 
+                  <a href="#">Shopping Cart Total Price: shs 100, Total items : 2 </a> 
      </div>
 
      <div class = "col-md-6">
