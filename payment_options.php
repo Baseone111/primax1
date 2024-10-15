@@ -10,7 +10,7 @@
 	?>
 		<h1 class="text-center">Payment opitons</h1>
         <p class="lead text-center">
-        	<a href="order.php?c_id=<?php echo  $customer_id; ?>">Pay offline</a>
+        	<a href="order.php?c_id=<?php echo  $customer_id; ?>">Pay On Delivery</a>
         </p>
         <center>
         	<p class="lead">
