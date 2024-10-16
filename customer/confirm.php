@@ -189,7 +189,7 @@ else{
   <div class="box">
     <h1 align="center">Please Confirm Your Payment</h1>
     <form action="confirm.php?update_id=<?php echo $order_id; ?>" method="post" enctype="multipart/form-data">
-      <div class="form-group">
+      <!-- <div class="form-group">
           <label>Invoice Number</label>        
           <input type="text" name="invoice_number" class="form-control" required="">
       </div>
@@ -207,8 +207,8 @@ else{
             <option>Paypal</option>
             <option>Bkash</option>
           </select>
-      </div>
-       <div class="form-group">
+      </div> -->
+       <!-- <div class="form-group">
           <label>Transection Number</label>        
           <input type="text" name="trfr_number" class="form-control" required="">
       </div>
@@ -216,7 +216,7 @@ else{
           <label>Payment Date</label>        
           <input type="date" name="date" class="form-control" required="">
       </div>
-      <div class="text-center">
+      <div class="text-center"> -->
           <button type="submit" name="confirm_payment" class="btn btn-primary btn-lg">
             Conform Payment
           </button>

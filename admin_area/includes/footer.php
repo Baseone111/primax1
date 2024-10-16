@@ -61,13 +61,13 @@
  		<h4>Where to find us</h4>
 
  		<p>
- 			<strong>Teeehosting.com</strong>
- 			<br>Bhowanigonj
- 			<br>Lakshmipur
- 			<br>Chittagong
- 			<br>Bangladesh
- 			<br>saiful@gmail.com
- 			<br>+880 1758284109
+ 			<strong>www.test.com</strong>
+ 			<br>BaseOne
+ 			<br>Developers
+ 			<br>Jinja
+ 			<br>Uganda
+ 			<br>baseonedevelopers@gmail.com
+ 			<br>+256-770463159
 
  		</p>
  		<a href="contact.php">Go to contant us page</a>

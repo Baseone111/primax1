@@ -59,7 +59,7 @@ else{
                  }
                     
                 ?>
-                  <a href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Taka <?php tatalPrice(); ?>, Total items : <?php item(); ?> </a> 
+                  <a href="cart.php" style="font-size: 12px;">Shopping Cart Total Price: Shs <?php tatalPrice(); ?>, Total items : <?php item(); ?> </a> 
      </div>
 
      <div class = "col-md-6">
