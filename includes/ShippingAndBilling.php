@@ -242,7 +242,7 @@ if(isset($_POST['submit']))
   //$c_ip=getUserIP();
 
 
-$insert_customer="insert into shipping_add (customer_name,shipping_add,region,contact_number) values('$customer_name','$shipping_add','$region','$contact_number')";
+$insert_customer="insert into shipping_address (customer_name,shipping_add,region,contact_number) values('$customer_name','$shipping_add','$region','$contact_number')";
 
 
 $run_customer=mysqli_query($con,$insert_customer);

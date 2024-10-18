@@ -64,7 +64,7 @@ else {
 <th>Order Date:</th>
 <th>Total Amount:</th>
 <th>Shipping Address</th>
-<th>Billing Address</th>
+
 <th>Order Status:</th>
 <th>Delete Order:</th>
 
@@ -153,7 +153,7 @@ echo $customer_email;
 
 <td><?php echo $order_date; ?> </td>
 
-<td>TAKA <?php echo $due_amount; ?></td>
+<td>Shs <?php echo $due_amount; ?></td>
 <td><?php echo $shipping_add; ?> </td>
 
 <td>
