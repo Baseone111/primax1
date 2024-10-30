@@ -17,15 +17,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `ecom`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `admins`
---
 
 CREATE TABLE `admins` (
   `admin_id` int(100) NOT NULL,
@@ -46,7 +37,6 @@ CREATE TABLE `admins` (
 INSERT INTO `admins` (`admin_id`, `admin_name`, `admin_email`, `admin_pass`, `admin_image`, `admin_contact`, `admin_country`, `admin_job`, `admin_about`) VALUES
 (1, 'samuel joe', 'samueljoe@gmail.com', '123', 'admin.jpg', '01758284109', 'kampala', 'developer', 'This is the developer of the company');
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `billing_address`
@@ -72,8 +62,6 @@ INSERT INTO `billing_address` (`cust_id`, `customer_name`, `billing_add`, `regio
 (11, 'Md. Saiful Islam', 'Dhupkhola math , Gendaria , Dhaka.\r\nJagannath University, Dhaka', 'Dhaka', '01758284109'),
 (12, 'Md. Saiful Islam', 'Dhupkhola math , Gendaria , Dhaka.\r\nJagannath University, Dhaka', 'Dhaka', '01758284109');
 
--- --------------------------------------------------------
-
 --
 -- Table structure for table `cart`
 --
@@ -93,7 +81,6 @@ INSERT INTO `cart` (`p_id`, `ip_add`, `qty`, `size`) VALUES
 (1, '127.0.0.1', 1, 'Small'),
 (1, '::1', 1, 'Small');
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `categories`
@@ -117,30 +104,6 @@ INSERT INTO `categories` (`cat_id`, `cat_title`, `cat_desc`) VALUES
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `chatbot_hints`
---
-
--- CREATE TABLE `chatbot_hints` (
---   `id` int(11) NOT NULL,
---   `question` varchar(100) NOT NULL,
---   `reply` varchar(100) NOT NULL
--- ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --
--- -- Dumping data for table `chatbot_hints`
--- --
-
--- INSERT INTO `chatbot_hints` (`id`, `question`, `reply`) VALUES
--- (1, 'HI||Hello||Hola', 'Hello, how are you.'),
--- (2, 'How are you', 'Good to see you again!'),
--- (3, 'what is your name||whats your name', 'My name is Vishal Bot'),
--- (4, 'what should I call you', 'You can call me Vishal Bot'),
--- (5, 'Where are your from', 'I m from India'),
--- (6, 'Bye||See you later||Have a Good Day', 'Sad to see you are going. Have a nice day'),
--- (7, 'who is the CEO of this shop?', 'Mr. Saiful Islma is the CEO.');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `customers`
@@ -244,56 +207,6 @@ INSERT INTO `customer_rev` (`rev_id`, `rating`, `review`, `c_image`) VALUES
 (11, 3, '       ', NULL),
 (12, 3, '       ', NULL);
 
--- --------------------------------------------------------
-
---
--- Table structure for table `message`
---
-
-CREATE TABLE `message` (
-  `id` int(11) NOT NULL,
-  `message` text NOT NULL,
-  `added_on` datetime NOT NULL,
-  `type` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `message`
---
-
-INSERT INTO `message` (`id`, `message`, `added_on`, `type`) VALUES
-(1, 'Hi', '2020-04-22 12:41:04', 'user'),
-(2, 'Hello, how are you.', '2020-04-22 12:41:05', 'bot'),
-(3, 'what is your name', '2020-04-22 12:41:22', 'user'),
-(4, 'My name is Saiful Bot', '2020-04-22 12:41:22', 'bot'),
-(5, 'Where are your from', '2020-04-22 12:41:30', 'user'),
-(6, 'I m from Bangladesh', '2020-04-22 12:41:30', 'bot'),
-(7, 'Go to hell', '2020-04-22 12:41:41', 'user'),
-(8, 'Sorry not be able to understand you', '2020-04-22 12:41:41', 'bot'),
-(9, 'bye', '2020-04-22 12:41:46', 'user'),
-(10, 'Sad to see you are going. Have a nice day', '2020-04-22 12:41:46', 'bot'),
-(11, 'hey', '2020-10-26 03:18:27', 'user'),
-(12, 'Sorry not be able to understand you', '2020-10-26 03:18:27', 'bot'),
-(13, 'hi', '2020-10-26 03:18:32', 'user'),
-(14, 'Hello, how are you.', '2020-10-26 03:18:32', 'bot'),
-(15, 'hi', '2020-10-26 04:14:24', 'user'),
-(16, 'Hello, how are you.', '2020-10-26 04:14:24', 'bot'),
-(17, 'who is the CEO of this shop?', '2020-10-26 04:22:10', 'user'),
-(18, 'Mr. Saiful Islma is the CEO.', '2020-10-26 04:22:10', 'bot'),
-(19, 'hi', '2020-10-31 04:43:40', 'user'),
-(20, 'Hello, how are you.', '2020-10-31 04:43:40', 'bot'),
-(21, 'who is the CEO of this online shop?', '2020-11-07 10:45:14', 'user'),
-(22, 'Sorry not be able to understand you', '2020-11-07 10:45:14', 'bot'),
-(23, 'hi', '2020-11-07 10:45:25', 'user'),
-(24, 'Hello, how are you.', '2020-11-07 10:45:25', 'bot'),
-(25, 'how are you?', '2021-05-02 04:27:33', 'user'),
-(26, 'Sorry not be able to understand you', '2021-05-02 04:27:33', 'bot'),
-(27, 'who is the ower of this shop?', '2021-05-02 04:27:54', 'user'),
-(28, 'Sorry not be able to understand you', '2021-05-02 04:27:54', 'bot'),
-(29, 'who is the CEO of this shop?', '2021-05-02 04:28:11', 'user'),
-(30, 'Mr. Saiful Islma is the CEO.', '2021-05-02 04:28:11', 'bot');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `payments`
@@ -333,7 +246,6 @@ INSERT INTO `payments` (`payment_id`, `invoice_id`, `amount`, `payment_mode`, `r
 (18, 1116513213, 20000, 'Bank transfer', 55467423, '2020-11-30'),
 (19, 1116513213, 150000, 'Bank transfer', 55467423, '2021-05-26');
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `products`

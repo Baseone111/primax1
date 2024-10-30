@@ -63,8 +63,8 @@ else {
 <th>Product Size:</th>
 <th>Order Date:</th>
 <th>Total Amount:</th>
+<th>Contact:</th>
 <th>Shipping Address</th>
-
 <th>Order Status:</th>
 <th>Delete Order:</th>
 
@@ -114,9 +114,12 @@ $product_title = $row_products['product_title'];
 global $cust_id;
 $get_address="select * from shipping_address where cust_id='$cust_id'";
 $run_address=mysqli_query($con,$get_address);
-$row_address=mysqli_fetch_array($run_address);
+while($row_address=mysqli_fetch_array($run_address)){
+    $shipping_add=$row_address['shipping_add'];
+    $contact_number = $row_address['contact_number'];
+}
 
-$shipping_add=$row_address['shipping_add'];
+
 
 
 $i++;
@@ -154,6 +157,7 @@ echo $customer_email;
 <td><?php echo $order_date; ?> </td>
 
 <td>Shs <?php echo $due_amount; ?></td>
+<td><?php echo $contact_number; ?></td>
 <td><?php echo $shipping_add; ?> </td>
 
 <td>
